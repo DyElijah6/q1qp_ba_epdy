@@ -1,0 +1,427 @@
+.container{ 
+    max-height: 100vh; /* Determines maximum height */
+    max-width: 100vw; /* Determines maximum width */
+} 
+.navbar{
+    height: 15vh; /* Determines navbar height */
+    background-color: #ef247d; /* Determines navbar color */
+}
+.navbar img{
+    height: 10vh; /* Determines logo height */
+    border-radius: 50%; /* Makes the logo circle */
+    margin-top: 2.5vh; /* Determines logo's placement */
+    margin-left: 2vw; /* Determines logo's placement */
+}
+.navbar a{
+    text-decoration: none; /* Sets link with no decoration (line underneath removed) */
+    font-size: 3vh; /* Sets link font-size */
+    font-family: alice; /* Sets link font */
+    border: 3px solid  #E12074; /* Sets a border for the links */
+    background-color: #FFE5F1; /* Sets the background color for the bordered link */
+    padding: 1vh; /* Determines bordered links' spacing */
+    padding-left: 1.5vw; /* Determines bordered links' spacing */
+    padding-right: 1.5vw; /* Determines bordered links' spacing */
+    height: 3.5vh; /* Sets border height */
+    margin-top: 4.5vh; /* Determines bordered links' placement */
+    margin-right: .5vw; /* Determines bordered links' placement */
+    float: right; /* Sets bordered links to the right*/
+    color: #E12074; /* Turns the links' color to #E12074 */
+}
+.navbar a:hover{
+    background-color: #FDC3DE; /* Turns the background into #FDC3D3 when cursor hovers on the links */
+
+}
+.body{
+    height: 73vh; /* sets body height */
+    background-color: #FFE5F1; /* Sets the background-color of the body to #FFE5F1 */
+    margin-top: -8.3vh; /* Fixes the excess spaces */
+    background-image: url(images/bodybg.png); /* Sets the bg-image of body to bodybg.png */
+    background-position: -50%; /* Sets the position of the bg-image */
+}
+.body h2{
+    font-size: 10vh; /* Sets body h2 font size */
+    margin-left: 17vw; /* Determines the placement of body h2 */
+    font-family: carelia; /* Sets body h2 font into carelia */
+    color: #F668A6; /* Sets body h2's color */
+    font-weight: bold; /* Sets body h2 to bold */
+    
+}
+.body h3{
+    font-size: 6.5vh; /* Sets body h3 font size */
+    margin-left: 15vw; /* Determines body h3 placement */
+    font-family: caralia; /* Sets body h3 font */
+    margin-top: -14.5vh; /* Determines body h3 placement */
+    color: #F668A6; /* Sets body h3 color */
+    font-weight: bold; /* Sets body h3 to bold */
+    font-style: italic; /* Sets body h3 to italic */
+}
+.body h1{
+    font-size: 7vh; /* Sets body h1 font size */
+    margin-left: 25vw; /* Determines body h1 placement */
+    margin-top: -6vh; /* Determines body h1 placement */
+    padding-bottom: 10vh; /* Determines body h1 placement */
+    font-family: teddy; /* Sets body h1 font */
+    color: #E12074; /* Sets body h1 color */
+} 
+.body a{
+    font-size: 5vh; /* Sets body link font size */
+    text-decoration: none; /* Removes the line underneath the link */
+    border: 2px solid #E12074; /* Sets a border around the link */
+    background-color: #FFE5F1; /* Sets the background color of the bordered link */
+    padding: 2vh; /* Determines borded link spacing */
+    padding-left: 8vw; /* Determines bordered link spacing */
+    padding-right: 8vw; /* Determines bordered link spacing */
+    padding-top: 1vh; /* Determines bordered link spacing */
+    padding-bottom: 1vh; /* Determines bordered link spacing */
+    margin-left: 38vw; /* Determines bordered link placement */
+    font-family: carelia; /* Sets bordered link font */
+    font-style: italic; /* Sets link to italic */
+    color: #E12074;   /* Sets link color */
+}
+.body a:hover{
+    background-color: #FDC3DE; /* Turns the background color of the bordered link into #FDC3DE when hovered */
+    border: 3px solid  #E12074; /* Thickens the border of the link when hovered */
+}
+.footer{
+    height: 10vh; /* Sets footer height */
+    background-color: #ef247d; /* Sets background-color */
+    padding-top: 2vh; /*Sets spacing within the footer */
+}
+.footer p{
+    float: right; /* Moves the footer p to the right */
+    margin-top: 5vh; /* Adjusts footer p placement */
+    margin-right: .5vw; /* Adjusts footer p placement */
+    font-size: 2vh; /* Sets footer p size */
+    color: white; /* Sets footer p color */
+    font-family:sans-serif; /*Sets footer p font */
+    font-style: italic; /* Sets footer p to italic */
+}
+.socmed{
+    background-color: white; /* Sets socmed box background to white */
+    width: 11.5vw; /*Sets the width of the socmed box */
+    padding-left: 2vw; /*Sets the spacing inside the socmed box */
+    margin-left: 1vw; /* ADjusts socmed box placement */
+    border: 2px solid #FA1077; /* Creates border for the box */
+    border-radius: 5%; /* Smooths the edges of the box */
+}
+.bodystudy{
+        height: 73vh; /* Sets bodystudy height */
+        background-color: #FFE5F1; /* Sets the background color of bodystudy */
+        background-image: url(images/studybg.png); /*Sets the a background image for bodystudy */
+        background-position: 4vh; /*Positions the background image */
+}
+.bodystudy img{
+    height: 62vh; /* Sets bodystudy image height */
+    margin-top: 5.5vh; /* Positions the image */
+    margin-left: 2vw; /* Positions the image */
+}
+.bodystudy h1{
+    margin-left: 27vw; /* Positions it */
+    margin-top: -65vh; /* Positions it */
+    font-size: 8vh; /* Sets font size */
+    font-family: type; /* Sets font */
+    color: #FA1077; /* Sets the color */
+}
+.bodystudy p{
+    font-size: 3.7vh; /* Sets the font size */
+    margin-left: 28vw; /* Positions it */
+    margin-right: 5vw; /* Positions it */
+    margin-top: -3vh; /* Positions it */ 
+    text-align: justify; /* Justifies the paragraoh */
+    color: #FA1077; /* Sets the color */
+}
+.bodycontent{
+    height: 73vh; /* Sets bodycontent height */
+    background-color: #FFE5F1; /* Sets the backgrond color */
+    margin-top: -5vh; /* Positions it */
+    background-image: url(images/contentbg.png); /* Sets the background image*/
+    background-position: -5vh; /*Positions the background image */
+}
+.bodycontent h1{
+    font-family: type; /*Sets the font of h1 */
+    padding-top: 4vh; /* Spaces it */
+    margin-left: 3vw; /* Positions it */
+    font-size: 6vh; /*Sets the font size */
+    color: #FA1077; /* Sets the color */
+}
+.bodycontent p{
+    font-size: 4vh;
+    margin-left: 2vw; /* Positions it */
+    margin-right: 28vw; /* Positions it */
+    margin-top: -3vh; /* Positions it */
+    text-align: justify; /* Justifies the test */
+    color: #FA1077; /* Sets the color */
+}
+.bodycontent a{
+    float: right; /* Moves links to the right */
+    border: 2px solid#E12074;
+    margin-bottom: 1vh; /* Positions it */
+    margin-right: 2.5vw; /* Positions it */
+    padding: 1vw; /* Spaces the links */
+    color: #E12074; /* Sets the color */
+    background-color: #FFE5F1;   /* Sets the background color */
+    width: 6vw; /* Sets the bordered links' width */
+    align-items: center; /* Aligns text to the center */
+    text-decoration: none; /* Removes the line underneath the link */
+    font-family: alice; /* Sets the font of the link */
+    text-align: center; /* Aligns it to the center */
+   
+}
+.bodycontent a:hover{
+    background-color: #FDC3DE; /* Sets the background color */
+}
+.navcontent{
+    border: 2px solid #E12074; /* Creates a border */
+    height: 22vh; /* Sets the height */
+    width: 15vw; /* Sets the width */
+    float: right; /* Sets the image to the right */
+    margin-top: -62.5vh; /* Positions it */
+    margin-right: 3vw; /* Positions it */
+    padding-right: 1.8vw; /* Spaces it */
+    padding-top: 2vh; /* Spaces it */
+    padding-bottom: 2vh; /* Spaces it */
+    background-color: #FFE5F1; /* Sets the background color */
+}
+.bodyreferences{
+    height: 73vh;
+    background-color: #FFE5F1; /* Sets the background color */
+    margin-top: -7.5vh; /* Positions it */
+    background-image: url(images/referencesbg.png); /* Sets the background image */
+    background-position: 50%; /* Positions the background image */
+}
+.bodyreferences h1{
+    padding-top: 3vh; /* Spaces it */
+    font-size: 10vh; /* Sets it*/
+    font-family: type; /* Sets the font */
+    text-align: center; /*Aligns the text to the center */
+    color: #FA1077; /* Sets the color */
+}
+.bodyreferences ol{
+    margin-left: 16vw; /* Positions it */
+    margin-right: 17vw; /* Positions it */
+    margin-top: -5vh; /* Positions it */
+    font-size: 3vh;
+    text-align: justify;
+    color: #FA1077; /* Sets the color */
+}
+.aboutbody{
+    height: 72vh; /* Sets the height of the aboutbody */
+    background-color: #FFE5F1; /* Sets the background color */
+    padding-left: 12vw; /* Spaces the contents within the div */
+    padding-top: 1vh; /* Spaces the contents within the div */
+}
+.aboutbody img{
+    height: 40vh; /* Sets the height of the image*/
+    border-radius: 70%; /* Rounds the edges of the border */
+    border: 5px solid #FA1077; /* Creates a border */
+    margin-left: 2vw; /* Positions it */
+    margin-right: 2vw ;    /* Positions it */  
+    margin-top: 3vh; /* Positions it */
+}
+.aboutbody h1{
+    font-family: type; /* Sets the font of the h1*/
+    color:#FA1077;   /* Sets the color */
+
+}
+.kenzoH{
+    margin-left: -1.5vw; /* Positions it */
+    margin-top: -2vh; /* Positions it */
+}
+.jurisH{
+    margin-left: 31vw; /* Positions it */
+    margin-top: -8vh; /* Positions it */
+}
+.eliH{
+    float: right; /* Moves the div to the right */
+    margin-right: 16.5vw; /* Positions it */
+    margin-top: -9.9vh; /* Positions it */
+}
+.members a{
+    text-decoration: none; /* Removes the line underneath the link */
+    font-size: 5vh; /* Sets the size of the link */
+    font-family: carelia; /* Sets the font of the link */
+    color: #E12074; /* Sets the color */
+    padding-left: 2vw; /* Spaces the link*/
+    padding-right: 2vw; /* Spaces the link*/
+    text-align: center; /* Aligns the link to the center */
+    margin-left: 19.5vw; /* Positions it */
+    margin-top: 5vh; /* Positions it */
+}
+.members a:hover{
+    color: #F668A6; /* Sets the color */
+    padding-top: 1vh; /* Spaces it once the cursor hovers on it */
+}
+.members2 h1{
+    font-family: teddy; /* Sets the font */
+    margin-left: 20.5vw; /* Positions it */
+    margin-top: -2vh; /* Positions it */
+}
+.membersbody{
+    background-color: #FFE5F1; /* Sets the background color */
+    height: 73vh; /* Sets the height */
+}
+.membersbody img{
+    margin-top: 53vh; /* Positions it */
+    height: 20vh; /* Sets the height of the image */
+}
+.membersbody img:hover{
+    content: url(images/badtz2.png); /* Changes the image once cursor hovers on it*/
+}
+.membersbody h1{
+    font-family: type;  /* Sets the font */
+    margin-top: -70vh; /* Positions it */
+    margin-left: 14vw; /* Positions it */
+    font-size: 7vh; /* Sets the size */
+    color: #FA1077; /* Sets the color */
+}
+.box p{
+    font-size: 3vh; /* Sets the size */
+    font-family: alice; /* Sets the font */
+    margin-left: 15vw; /* Positions it */
+    margin-right: 15vw; /* Positions it */
+    padding: 5vh; /* Spaces the box p */
+    text-align: justify; /* Justified the text */
+    border: 3px solid #FA1077; /* Creates a border for the text */
+    border-radius: 2%; /* Makes the edges of the border round */
+    color: #ef247d; /* Sets the color */
+}
+.qualbody{
+    height: 73vh; /* Sets the height of the div */
+    background-color: #FFE5F1; /* Sets the background color */
+}
+.qualbody a{
+    float: right; /* Moves the contents to the right */
+    border: 2px solid#E12074; /* Creates a border for links */
+    margin-bottom: 1vh; /* Positions it */
+    margin-right: 2.5vw; /* Positions it */
+    padding: 1vw; /* Spaces the links inside */
+    color: #E12074; /* Sets the color */
+    background-color: #FFE5F1;    /* Sets the background color */
+    width: 6vw; /* Sets the width of the border */
+    align-items: center; /* Items will move to the center */
+    text-decoration: none; /* Removes the line underneath */
+    font-family: alice; /* Sets the font of the links */
+    text-align: center; /* Aligns text to the center */
+}
+.qualnav{
+    border: 2px solid #E12074; /* Creates a border */
+    height: 22vh; /* Sets the border height */
+    width: 15vw; /* Sets the border width */
+    float: right; /* Moves div to the right */
+    margin-top: -39.8vh; /* Positions it */
+    margin-right: 3vw; /* Positions it */
+    padding-right: 1.8vw; /* Spaces the contents inside the div */
+    padding-top: 2vh; /* Spaces the contents inside the div */
+    padding-bottom: 2vh; /* Spaces the contents inside the div */
+    background-color: #FFE5F1; /* Sets the background color */
+}
+.qualbody h1{
+    margin-top: -1vh; /* Positions it */
+    margin-left: 5vw; /* Positions it */
+    font-family: type; /* Sets the font*/
+    color: #ef247d; /* Sets the color */
+    font-size: 7vh; /* Sets the size */
+
+}
+.qualimgs img{
+    margin-top: 20vh; /* Positions it */
+    margin-left: 5vw; /* Positions it */
+    height: 20vh; /* Sets the height of the image*/
+}
+.qualbody a:hover{
+    background-color: #FDC3DE; /* Sets the background color */
+}
+.quanbody{ 
+    background-color: #FFE5F1; /* Sets the background color */
+    height: 73vh;  /* Sets the height of the div*/
+}
+.quanbody img{
+    height: 50vh;  /* Sets the height of the image*/
+    margin-top: 10vh; /* Positions it */
+    margin-left: 10vw; /* Positions it */
+}
+.quannav{
+    border: 2px solid #E12074; /* Creates a border for the contents */
+    height: 22vh;  /* Sets the height of the border*/
+    width: 15vw;  /* Sets the width of the border*/
+    float: right;  /* Moves the contents to the right */
+    margin-top: 1vh; /* Positions it */
+    margin-right: 3vw; /* Positions it */
+    padding-right: 1.8vw; /* Spaces the contents within the div */
+    padding-top: 2vh; /* Spaces the contents within the div */
+    padding-bottom: 2vh; /* Spaces the contents within the div */
+    background-color: #FFE5F1; /* Sets the background color */
+}
+.quannav a{
+    float: right;  /* Moves the contents to the right */
+    border: 2px solid#E12074; /* Creates a border for the contents */
+    margin-bottom: 1vh; /* Positions it */
+    margin-right: 2.5vw; /* Positions it */
+    padding: 1vw;  /* Spaces the contents within the div */
+    color: #E12074; /* Sets the color */
+    background-color: #FFE5F1;    /* Sets the background color */
+    width: 6vw; /* Sets the width of the border*/
+    align-items: center; /* Items will move to the center */
+    text-decoration: none; /* Removes the line underneath the link*/
+    font-family: alice; /* Sets the font */
+    text-align: center; /* Text will move to the center */
+}
+.quannav a:hover{
+    background-color: #FDC3DE; /* Sets the background color */
+}
+.descbody{
+    height: 73vh;  /* Sets the height of the div*/
+    background-color: #FFE5F1; /* Sets the background color */
+}
+.descbody img{
+    height: 50vh;  /* Sets the height of the image*/
+    margin-left: 3vw; /* Positions it */
+    margin-top: 10vh; /* Positions it */
+}
+.descnav{
+    border: 2px solid #E12074;
+    height: 22vh;  /* Sets the height of the div*/
+    width: 15vw;  /* Sets the width of the div*/
+    float: right;   /* Moves the contents to the right */
+    margin-top: -72vh; /* Positions it */
+    margin-right: 3vw; /* Positions it */
+    padding-right: 1.8vw; /* Spaces the contents within the div */
+    padding-top: 2vh; /* Spaces the contents within the div */
+    padding-bottom: 2vh; /* Spaces the contents within the div */
+    background-color: #FFE5F1; /* Sets the background color */
+}
+.descnav a{
+    float: right;  /* Moves the contents to the right */
+    border: 2px solid#E12074; /* Creates a border for the contents */
+    margin-bottom: 1vh; /* Positions it */
+    margin-right: 2.5vw; /* Positions it */
+    padding: 1vw; /* Spaces the contents within the div */
+    color: #E12074; /* Sets the color */
+    background-color: #FFE5F1; /* Sets the background color */
+    width: 6vw; /* Sets the width of the border*/
+    align-items: center; /* Items will move to the center */
+    text-decoration: none; /* Removes the line underneath the link*/
+    font-family: alice; /* Sets the font of the link*/
+    text-align: center; /* text will move to the center */
+}
+.descnav a:hover{
+    background-color: #FDC3DE; /* Sets the background color */
+}
+@font-face{
+    font-family: teddy;
+    src: url(fonts/Teddy_Bear.ttf);
+}
+@font-face{
+    font-family: alice; 
+    src: url(fonts/Alice-Regular.ttf);
+}
+@font-face {
+    font-family: carelia;
+    src: url(fonts/CareliaUpright.ttf);
+}
+@font-face {
+    font-family: type;
+    src: url(fonts/BayerTypeArchiTypeRegular.otf)
+}
+
+/* font-face allows you to import fonts that arent built in the list of vs */
